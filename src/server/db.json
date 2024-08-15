@@ -1,0 +1,136 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "description": "Complete project My_Portfolio",
+      "priority": "high",
+      "completed": true
+    },
+    {
+      "id": "2",
+      "description": "Update team meeting notes",
+      "priority": "medium",
+      "completed": true
+    },
+    {
+      "id": "3",
+      "description": "Review of allocated tasks",
+      "priority": "low",
+      "completed": true
+    },
+    {
+      "id": "4",
+      "description": "Review pull requests",
+      "priority": "high",
+      "completed": false
+    },
+    {
+      "id": "5",
+      "description": "Organize project files",
+      "priority": "medium",
+      "completed": true
+    },
+    {
+      "id": "6",
+      "description": "Prepare for meeting with our Team Lead",
+      "priority": "high",
+      "completed": false
+    },
+    {
+      "id": "7",
+      "description": "Conduct code review",
+      "priority": "medium",
+      "completed": true
+    },
+    {
+      "id": "8",
+      "description": "Update project roadmap",
+      "priority": "low",
+      "completed": false
+    },
+    {
+      "id": "9",
+      "description": "Refactor old codebase",
+      "priority": "medium",
+      "completed": false
+    },
+    {
+      "id": "10",
+      "description": "Set up continuous integration",
+      "priority": "high",
+      "completed": true
+    },
+    {
+      "id": "11",
+      "description": "Design new feature UI",
+      "priority": "low",
+      "completed": false
+    },
+    {
+      "id": "12",
+      "description": "Write unit tests",
+      "priority": "medium",
+      "completed": false
+    },
+    {
+      "id": "13",
+      "description": "Update server configuration",
+      "priority": "high",
+      "completed": false
+    },
+    {
+      "id": "14",
+      "description": "Evaluate New Technology Stack",
+      "priority": "low",
+      "completed": false
+    },
+    {
+      "id": "15",
+      "description": "Conduct Manual and Automatic Testing of the newly launched Product",
+      "priority": "medium",
+      "completed": true
+    },
+    {
+      "id": "16",
+      "description": "Review and Update the Software Testing Lifecycle",
+      "priority": "high",
+      "completed": true
+    },
+    {
+      "id": "17",
+      "description": "Inspect Laptops to be used for Programming",
+      "priority": "low",
+      "completed": true
+    },
+    {
+      "id": "18",
+      "description": "Meeting with Client",
+      "priority": "medium",
+      "completed": false
+    },
+    {
+      "id": "19",
+      "description": "Complete a course in Data Structures",
+      "priority": "low",
+      "completed": false
+    },
+    {
+      "id": "20",
+      "description": "Write a questionnaire to assess the need of the proposed software product",
+      "priority": "high",
+      "completed": false
+    },
+    {
+      "id": "1723746782811",
+      "description": "Learn NextJs",
+      "priority": "high",
+      "completed": false
+    },
+    {
+      "id": "b7dd",
+      "description": "Learn PHP",
+      "priority": "medium",
+      "completed": true
+    }
+  ]
+}
