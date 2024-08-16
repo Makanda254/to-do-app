@@ -2,9 +2,9 @@
   "tasks": [
     {
       "id": "2",
-      "description": "Update team meeting notes",
+      "description": "Update team meeting notes and plan for the next meet up",
       "priority": "medium",
-      "completed": true
+      "completed": false
     },
     {
       "id": "3",

@@ -21,6 +21,14 @@ const TaskList: React.FC<TaskListProps> = ({ tasks, setTasks }) => {
     setTasks((prevTasks) => prevTasks.filter((task) => task.id !== id));
   };
 
+  const handleEdit = (id: number, description: string) => {
+    setTasks((prevTasks) =>
+      prevTasks.map((task) =>
+        task.id === id ? { ...task, description } : task
+      )
+    );
+  };
+
   return (
     <List>
       {tasks.map((task) => (
@@ -29,6 +37,7 @@ const TaskList: React.FC<TaskListProps> = ({ tasks, setTasks }) => {
           task={task}
           onStatusToggle={handleStatusToggle}
           onDelete={handleDelete}
+          onEdit={handleEdit}
         />
       ))}
     </List>
