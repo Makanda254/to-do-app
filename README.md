@@ -47,7 +47,6 @@ I suggest that you begin by typing:
 - NextJs
 - Redux toolkit
 - Material UI
-- Tailwind
 - TypeScript
 
 ## Acknowledgement
