@@ -6,8 +6,8 @@ import { Task } from '../store/taskSlice';
 
 interface TaskItemProps {
   task: Task;
-  onStatusToggle: (id: string, completed: boolean) => void;
-  onDelete: (id: string) => void;
+  onStatusToggle: (id: number, completed: boolean) => void;
+  onDelete: (id: number) => void;
 }
 
 const TaskItem: React.FC<TaskItemProps> = ({ task, onStatusToggle, onDelete }) => {

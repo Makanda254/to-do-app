@@ -2,7 +2,7 @@ import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { v4 as uuidv4 } from 'uuid';
 
 export interface Task {
-  id: string;
+  id: number;
   description: string;
   priority: 'low' | 'medium' | 'high';
   completed: boolean;
@@ -13,16 +13,15 @@ interface TaskState {
 }
 
 const initialState: TaskState = {
-  tasks: [],
+ tasks: [],
 };
 
 const taskSlice = createSlice({
   name: 'tasks',
   initialState,
   reducers: {
-    addTask: (state, action: PayloadAction<Omit<Task, 'id'>>) => {
-      const newTask = { id: uuidv4(), ...action.payload };
-      state.tasks.push(newTask);
+    addTask: (state, action: PayloadAction<Task>) => {
+      state.tasks.push(action.payload);
     },
     updateTask: (state, action: PayloadAction<Task>) => {
       const index = state.tasks.findIndex(task => task.id === action.payload.id);
@@ -30,11 +29,11 @@ const taskSlice = createSlice({
         state.tasks[index] = action.payload;
       }
     },
-    deleteTask: (state, action: PayloadAction<string>) => {
+    deleteTask: (state, action: PayloadAction<number>) => {
       state.tasks = state.tasks.filter(task => task.id !== action.payload);
     },
   },
-});
+}); 
 
 export const { addTask, updateTask, deleteTask } = taskSlice.actions;
 //export type {Task};

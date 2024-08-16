@@ -5,11 +5,11 @@ import { Task } from '../store/taskSlice';
 
 interface TaskListProps {
   tasks: Task[];
-  setTasks: React.Dispatch<React.SetStateAction<Task[]>>; // Update to allow state modification
+  setTasks: React.Dispatch<React.SetStateAction<Task[]>>; 
 }
 
 const TaskList: React.FC<TaskListProps> = ({ tasks, setTasks }) => {
-  const handleStatusToggle = (id: string, completed: boolean) => {
+  const handleStatusToggle = (id: number, completed: boolean) => {
     setTasks((prevTasks) =>
       prevTasks.map((task) =>
         task.id === id ? { ...task, completed } : task
@@ -17,7 +17,7 @@ const TaskList: React.FC<TaskListProps> = ({ tasks, setTasks }) => {
     );
   };
 
-  const handleDelete = (id: string) => {
+  const handleDelete = (id: number) => {
     setTasks((prevTasks) => prevTasks.filter((task) => task.id !== id));
   };
 

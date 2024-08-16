@@ -1,12 +1,6 @@
 {
   "tasks": [
     {
-      "id": "1",
-      "description": "Complete project My_Portfolio",
-      "priority": "high",
-      "completed": true
-    },
-    {
       "id": "2",
       "description": "Update team meeting notes",
       "priority": "medium",
@@ -16,13 +10,13 @@
       "id": "3",
       "description": "Review of allocated tasks",
       "priority": "low",
-      "completed": true
+      "completed": false
     },
     {
       "id": "4",
       "description": "Review pull requests",
       "priority": "high",
-      "completed": false
+      "completed": true
     },
     {
       "id": "5",
@@ -34,7 +28,7 @@
       "id": "6",
       "description": "Prepare for meeting with our Team Lead",
       "priority": "high",
-      "completed": false
+      "completed": true
     },
     {
       "id": "7",
@@ -46,13 +40,7 @@
       "id": "8",
       "description": "Update project roadmap",
       "priority": "low",
-      "completed": false
-    },
-    {
-      "id": "9",
-      "description": "Refactor old codebase",
-      "priority": "medium",
-      "completed": false
+      "completed": true
     },
     {
       "id": "10",
@@ -64,13 +52,13 @@
       "id": "11",
       "description": "Design new feature UI",
       "priority": "low",
-      "completed": false
+      "completed": true
     },
     {
       "id": "12",
       "description": "Write unit tests",
       "priority": "medium",
-      "completed": false
+      "completed": true
     },
     {
       "id": "13",
@@ -103,34 +91,28 @@
       "completed": true
     },
     {
-      "id": "18",
-      "description": "Meeting with Client",
-      "priority": "medium",
-      "completed": false
+      "id": "19",
+      "description": "Complete a course in Data Structures",
+      "priority": "low",
+      "completed": true
     },
     {
-      "id": "19",
+      "id": "20",
       "description": "Complete a course in Data Structures",
       "priority": "low",
       "completed": false
     },
     {
-      "id": "20",
-      "description": "Write a questionnaire to assess the need of the proposed software product",
-      "priority": "high",
+      "id": "21",
+      "description": "Complete a course in Data Structures",
+      "priority": "low",
       "completed": false
     },
     {
-      "id": "1723746782811",
-      "description": "Learn NextJs",
-      "priority": "high",
+      "id": "22",
+      "description": "Complete a course in Data Structures",
+      "priority": "low",
       "completed": false
-    },
-    {
-      "id": "b7dd",
-      "description": "Learn PHP",
-      "priority": "medium",
-      "completed": true
     }
   ]
 }
