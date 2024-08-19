@@ -38,7 +38,7 @@ const Home: React.FC = () => {
             flexDirection: 'column',
             textAlign: 'center',
             padding: '20px',
-            backgroundColor: '#f5f5f5', // Optional background color for contrast
+            backgroundColor: '#f5f5f5', 
           }}
         >
           <Container>
