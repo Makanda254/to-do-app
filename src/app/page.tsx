@@ -21,7 +21,7 @@ const Home: React.FC = () => {
           <Box
             sx={{
               height: '100%',
-              backgroundImage: 'url("https://images.unsplash.com/photo-1542435503-956c469947f6?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHdyaXRpbmclMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww")', // Replace with your image path
+              backgroundImage: 'url("https://images.unsplash.com/photo-1542435503-956c469947f6?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHdyaXRpbmclMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww")', 
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
